@@ -1,5 +1,84 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     width: 50vw;
 }
+
+.container-center{
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.heading{
+    padding: 1rem;
+    color: blueviolet;
+    text-align: center;
+}
+
+.label{
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+.input{
+    width: 20vw;
+    margin: auto;
+    border: 2px solid blueviolet;
+    border-radius: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    text-align: center;
+}
+
+#check-button{
+    width: 7vw;
+    margin:auto;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+caption{
+    padding-bottom: 2rem;
+    font-size: 25px;
+}
+table, th, td {
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    text-align: left;
+    padding:0.5rem;
+  }
+
+  footer{
+    padding-top: 2rem;
+  }
+  ul{
+    list-style: none;
+    margin: auto;
+    display:block;
+    padding-left: 0;
+  }
+
+  a, img, li {
+    display: inline;
+    padding: 0.2rem;
+  }
+
+  img{
+    height: 35px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
